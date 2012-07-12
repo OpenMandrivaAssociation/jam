@@ -11,6 +11,7 @@ License:	MIT
 Group:		Development/Other
 URL:		http://equinox-project.org
 Source0:	http://downloads.sourceforge.net/project/ede/%{name}/%{fullversion}/%{name}-%{fullversion}.tar.gz
+BuildRequires:	bison
 
 %description
 Jam is a nice replacement for make (and the mess called Automake) providing

@@ -20,7 +20,7 @@ a good facility for writing sane compile scripts.
 %setup -qn %{name}
 
 %build
-%make
+make
 
 %install
 export BINDIR="%{buildroot}%{_bindir}"

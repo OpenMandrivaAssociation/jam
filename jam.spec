@@ -11,6 +11,7 @@ License:	MIT
 Group:		Development/Other
 URL:		https://equinox-project.org
 Source0:	http://downloads.sourceforge.net/project/ede/%{name}/%{fullversion}/%{name}-%{fullversion}.tar.gz
+BuildRequires:	make
 BuildRequires:	bison
 
 %description
